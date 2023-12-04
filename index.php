@@ -56,7 +56,7 @@
     >
       <div>
         <p class="font-Inter text-white">
-          Welcome to Pharma. We provides medical accessories
+        Selamat datang di Pharma. Kami menyediakan layanan medis
         </p>
       </div>
       <div class="flex flex-row items-center gap-3">
@@ -98,13 +98,13 @@
       <div>
         <ul class="flex gap-10 w-max text-lg">
           <li class="hover:text-primary cursor-pointer">
-            <a href="#main">Home</a>
+            <a href="#main">Beranda</a>
           </li>
           <li class="hover:text-primary cursor-pointer">
-            <a href="#about">About</a>
+            <a href="#about">Tentang Kami</a>
           </li>
           <li class="hover:text-primary cursor-pointer">
-            <a href="#services">Service</a>
+            <a href="#services">Layanan</a>
           </li>
           <li
             @click.away="open = false"
@@ -115,7 +115,7 @@
               @click="open = !open"
               class="flex flex-row items-center w-full text-left md:w-auto md:inline md:mt-0 md:ml-4 hover:text-primary focus:text-primary focus:outline-none focus:shadow-outline"
             >
-              <span>Pages</span>
+              <span>Halaman</span>
               <svg
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -150,7 +150,7 @@
                 <a
                   class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   href="#team"
-                  >Team</a
+                  >Tim Kami</a
                 >
               </div>
             </div>
@@ -169,18 +169,18 @@
         <div class="bg-bg_main b w-full bg-cover bg-center">
             <div class="py-[9rem] px-[12.8%]">
             <!-- <div class="py-[11.3rem] pl-[12.8%] pr-[42%]"> -->
-                <div class="py-2 w-[22.1rem] bg-green font-Lato tracking-[0.4rem] text-[16px] text-center items-center">
-                    <p>MEDICAL PROFESSIONALS</p>
+                <div class="py-2 w-[22.1rem] bg-green font-Lato tracking-[0.4rem] text-lg text-center items-center">
+                    <p>PROFESIONAL MEDIS</p>
                 </div>
                 <div class="font-bold text-[50px] text-header1">
-                    <p">Makes Your Health <br> Better Will Makes <br> Us Better</p>
+                    <p">Kesehatan Anda Jadi<br>Kunci Kepuasan<br>Bagi Kami</p>
                 </div>
                 <div class="font-normal text-base text-header2">
-                    <p>Our team of highly trained professionals uses the latest <br> healing technologies to restore you to pain-free health <br> quickly and easily.</p>
+                    <p>Tim kami terdiri dari para profesional terlatih menggunakan <br> teknologi penyembuhan terbaru untuk memulihkan kesehatan  <br> Anda tanpa rasa sakit dengan cepat dan mudah.</p>
                 </div>
                 <div class="mt-7">
                     <button class="w-[11.75rem] h-[3.8rem] bg-primary font-normal text-base text-white hover:bg-blue-700">
-                        <a href="#about">Get Started</a>
+                        <a href="#about">Memulai</a>
                     </button>
                 </div>
             </div>
@@ -188,7 +188,7 @@
     </section>
     <section>
         <div class="flex justify-center font-bold text-3xl w-full my-[2.5rem] font-Lato text-header2">
-            <p>Our Offerings</p>
+            <p>Persembahan Kami</p>
         </div>
         <div class="flex w-full justify-around px-[12%]">
             <img src="asset/services/1.svg" width="130px" height="32px">
@@ -201,21 +201,21 @@
     <section class="px-[15%] py-[4.5rem]">
         <div class="bg-bg_cta w-full bg-cover bg-center flex flex-col justify-center text-center font-Inter py-20">
             <div>
-                <p class="text-white font-semibold text-3xl">Schedule an imperson or virtual <br> appointment today</p>
+                <p class="text-white font-semibold text-3xl">Jadwalkan janji pertemuan <br> virtual hari ini</p>
             </div>
             <div>
-                <button class="w-[11.75rem] h-[3.8rem] bg-green font-semibold text-xs text-header2 mt-5 hover:bg-emerald-300 rounded-[50px]">
-                    <a href="pages/login.php">Book an Appointment</a>
+                <button class="w-[11.75rem] h-[3.8rem] bg-green font-semibold text-[14px] text-header2 mt-5 hover:bg-emerald-300 rounded-[50px]">
+                    <a href="pages/login.php">Pesan janji temu</a>
                 </button>
             </div>
         </div>
     </section>
     <section class="flex-col text-center justify-center">
         <div class="flex justify-center" >
-            <p class="font-Lato font-normal tracking-[0.4rem] border border-solid border-gray-400 w-36 h-7 flex justify-center items-center pl-2">FEEDBACK</p>
+            <p class="font-Lato font-normal tracking-[0.4rem] border border-solid border-gray-400 w-42 h-7 flex justify-center items-center pl-2">MASUKAN PELANGGAN</p>
         </div>
         <div class="pb-12 pt-6">
-            <p class="font-Montserrat font-semibold text-3xl ">Feedbacks about our service <br> from the buttom of heart</p>
+            <p class="font-Montserrat font-semibold text-3xl ">Masukan tentang layanan kami <br> dari lubuk hati</p>
         </div>
     </section>
     <section class="flex justify-center px-[15%] pb-32">
@@ -239,13 +239,13 @@
     <section class="bg-primary py-[7%] px-[15%]">
             <div id="Medical" class="w-full h-full mb-16 flex justify-between">
                     <div>
-                        <p class="mb-3 border-2 border-white border-opacity-30 font-Lato font-medium text-base text-white tracking-[0.8rem] pl-5">MEDICAL EXPERTS</p>
-                        <div class="font-Montserrat font-semibold text-3xl text-white">The Professional Doctors</div>
+                        <p class="mb-3 border-2 border-white border-opacity-30 font-Lato font-medium text-base text-white tracking-[0.8rem] pl-7">AHLI MEDIS</p>
+                        <div class="font-Montserrat font-semibold text-3xl text-white">Dokter Profesional</div>
                     </div>
 
               
                     <div>
-                        <button class="mt-[7px] font-Inter font-meidum text-base bg-green hover:bg-emerald-300 text-primary p-5"><a href="#team">View All Doctors</a></button>
+                        <button class="mt-[7px] font-Inter font-meidum text-base bg-green hover:bg-emerald-300 text-primary p-5"><a href="#team">Lihat Semua Dokter</a></button>
                     </div>
   
                 
@@ -272,28 +272,28 @@
             <div class="flex text-center justify-center">
                 <div class="flex flex-col justify-center items-center px-10">
                         <span class="text-5xl text-white font-Lato mb-4 font-semibold">25</span>
-                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">YEARS</p>
-                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">EXPERIENCE</p>
+                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">TAHUN</p>
+                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">PENGALAMAN</p>
                 </div>
                 <div class="flex flex-col justify-center items-center px-10">
                         <span class="text-5xl text-white font-Lato mb-4 font-semibold">893</span>
-                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">MEDICAMENT</p>
-                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">INVENTED</p>
+                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">OBAT</p>
+                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">TERSEDIA</p>
                 </div>
                 <div class="flex flex-col justify-center items-center px-10">
                         <span class="text-5xl text-white font-Lato mb-4 font-semibold">75</span>
-                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">AWARDS</p>
-                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">WINNED</p>
+                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">MENANG</p>
+                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">PENGHARGAAN</p>
                 </div>
                 <div class="flex flex-col justify-center items-center px-10">
-                        <span class="text-5xl text-white font-Lato mb-4 font-semibold">673 k</span>
-                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">HAPPY</p>
-                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem] ">CLIENTS</p>
+                        <span class="text-5xl text-white font-Lato mb-4 font-semibold">673k</span>
+                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">KLIEN</p>
+                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem] ">SENANG</p>
                 </div>
                 <div class="flex flex-col justify-center items-center px-10">
                         <span class="text-5xl text-white font-Lato mb-4 font-semibold">751</span>
-                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">PHARMACIES</p>
-                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">PARTNERS</p>
+                        <p class="border border-white border-opacity-30 py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">MITRA</p>
+                        <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">FARMASI</p>
                 </div>
             </div>
     </div> 
@@ -302,25 +302,20 @@
 
     <!-- ABOUT -->
 
-    <section class="px-[3rem] py-10" id="about">
+    <section class="px-[3rem] py-24" id="about">
       <div>
         <img src="asset/about/banner.svg">
       </div>
     </section>
-    <section class="flex-col text-center justify-center py-20">
+    <section class="flex-col text-center justify-center py-20 -mt-32">
       <div class="flex justify-center">
         <p class="font-Montserrat font-bold text-3xl">
-          Our team helps you get your <br />
-          life back on track.
+        Tim kami membantu Anda kembali <br >ke jalur hidup yang lebih baik
         </p>
       </div>
       <div class="flex justify-center">
         <p class="font-Lato font-extralight text-base text-gray-500 py-4">
-          Our team of highly trained professionals uses the latest healing
-          technologies to restore you to pain-free <br />
-          health quickly and easily. We thoroughly evaluate & treat all of the
-          contributing root factors related to <br />
-          your issue. Includes, but is not limit, your work and home stressors.
+        Tim profesional kami yang sangat terlatih menggunakan teknologi penyembuhan terkini untuk mengembalikan <br> Anda ke kesehatan tanpa rasa sakit dengan cepat dan mudah. Kami secara menyeluruh mengevaluasi dan mengobati semua <br> faktor akar yang berkontribusi terkait dengan masalah Anda. Termasuk, namun tidak terbatas pada, stres di tempat kerja dan rumah.
         </p>
       </div>
     </section>
@@ -332,10 +327,10 @@
     <section class="py-10 flex gap-20 px-[15%]">
       <div>
         <div class="mb-5">
-          <p class="font-Lato font-normal text-sm tracking-[0.3rem] border border-solid border-gray-300 w-44 h-7 flex justify-center items-center pl-2">THE LEADERS</p>
+          <p class="font-Lato font-normal text-sm tracking-[0.3rem] border border-solid border-gray-300 w-48 h-7 flex justify-center items-center pl-2">PARA PEMIMPIN</p>
         </div>
         <div class="mb-5">
-          <p class="font-Montserrat font-semibold text-3xl tracking-[0.1rem]">We have the best <br> Pharma & Medical</p>
+          <p class="font-Montserrat font-semibold text-3xl tracking-[0.1rem]">Kami memiliki Dokter<br> dan Farmasi Terbaik</p>
         </div>
         <div class="font-Lato font-medium text-base text-gray-600">
           <p>Collaboratively administrate empowered markets via plug-and- <br> play networks. users after installed base benefits. Dramatically <br> visualize customer.</p>
@@ -345,7 +340,7 @@
       </div>
       <div>
         <div class="mb-5">
-          <p class="font-Lato font-normal text-sm tracking-[0.3rem] border border-solid border-gray-300 w-44 h-7 flex justify-center items-center pl-2">OUR STORY</p>
+          <p class="font-Lato font-normal text-sm tracking-[0.3rem] border border-solid border-gray-300 w-44 h-7 flex justify-center items-center pl-2">PERJALANAN KAMI</p>
         </div>
         <div class="mb-5">
           <p class="font-Montserrat font-semibold text-3xl tracking-[0.1rem]">Our mission is to help patient <br> live better.</p>
