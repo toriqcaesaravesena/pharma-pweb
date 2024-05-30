@@ -50,7 +50,7 @@
   </style>
     <title>HiDoc</title>
 </head>
-<body class="m-0 p-0"> 
+<body class="m-0 p-0">
      <section
       class="w-full h-[3.8rem] bg-primary items-center flex px-[17%] justify-between font-normal" id="main"
     >
@@ -74,9 +74,6 @@
           </p>
         </div>
       </div>
-      <!-- <div class="w-[8rem] h-[2.5rem] rounded-lg font-Inter text-base cursor-pointer pt-[0.4rem] text-white text-center justify-center border border-white hover:bg-white hover:text-black">
-        <p>Login</p>
-      </div> -->
     </section>
     <section
       class="flex px-[17%] justify-between py-10 items-center text-black"
@@ -219,7 +216,7 @@
         </div>
     </section>
     <section class="flex justify-center px-[15%] pb-32">
-        
+
         <div class="grid grid-cols-2 gap-6">
             <div>
                 <img src="asset/testimonial/1.svg">
@@ -243,12 +240,12 @@
                         <div class="font-Montserrat font-semibold text-3xl text-white">Dokter Profesional</div>
                     </div>
 
-              
+
                     <div>
                         <button class="mt-[7px] font-Inter font-meidum text-base bg-green hover:bg-emerald-300 text-primary p-5"><a href="#team">Lihat Semua Dokter</a></button>
                     </div>
-  
-                
+
+
             </div>
                   <!-- Foto -->
             <div class="flex justify-between gap-5 mb-16">
@@ -267,7 +264,7 @@
 
             <div class="py-[0.5px] rounded bg-white bg-opacity-70 px-[15%] mb-12"></div>
             <div class="py-[0.5px] rounded bg-white bg-opacity-20 px-[15%] mb-12"></div>
-    
+
             <!-- angka -->
             <div class="flex text-center justify-center">
                 <div class="flex flex-col justify-center items-center px-10">
@@ -296,7 +293,7 @@
                         <p class="border border-white border-opacity-30 -mt-[0.5px] py-1 px-2 font-Lato font-extralight text-xs text-white tracking-[0.3rem]">FARMASI</p>
                 </div>
             </div>
-    </div> 
+    </div>
 
     </section>
 
@@ -1013,7 +1010,7 @@
         />
       </div>
     </section>
-    
+
     <!-- Footer -->
 
     <section class="px-[3rem] py-[7.37rem] bg-[#FFFFFF]">
